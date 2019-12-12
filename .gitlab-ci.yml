@@ -4,4 +4,5 @@ docker-test:
    script:
       - npm install
       - npm run
-   only: gitlab-ci
+   only:
+      - gitlab-ci
