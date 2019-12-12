@@ -1,0 +1,7 @@
+test:
+   image: alpine
+   stage: test
+   script:
+      - npm install
+      - npm run test
+	only: gitlab-ci 
