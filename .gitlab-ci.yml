@@ -3,6 +3,6 @@ docker-test:
    stage: test
    script:
       - npm install
-      - npm run
+      - npm run test
    only:
       - gitlab-ci
