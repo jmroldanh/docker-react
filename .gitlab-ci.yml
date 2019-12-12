@@ -3,5 +3,5 @@ test:
    stage: test
    script:
       - npm install
-      - npm run test
-	only: gitlab-ci 
+      - npm run
+   only: gitlab-ci
