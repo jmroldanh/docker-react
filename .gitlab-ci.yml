@@ -1,4 +1,4 @@
-test:
+docker-test:
    image: alpine
    stage: test
    script:
