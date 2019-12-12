@@ -1,5 +1,5 @@
 docker-test:
-   image: alpine
+   image: node:alpine
    stage: test
    script:
       - npm install
